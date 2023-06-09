@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://chat.openai.com/favicon-16x16.png" type="image/x-icon" />
+    <title>NCPlayer</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        padding-top: 1rem;
+        background-color: #303030;
+      }
+
+      #player {
+        max-width: 800px;
+        width: 90%;
+        height: auto;
+        aspect-ratio: 16/9;
+        background-color: #000;
+        margin: 0 auto;
+        /* overflow: hidden;
+        border-radius: 6px; */
+      }
+
+      :root {
+        --s2player-theme: #32a917;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="player"></div>
+
+    <script src="./app.bundle.js"></script>
+</html>
